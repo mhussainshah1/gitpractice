@@ -1,0 +1,46 @@
+https://github.com/mhussainshah1/gitpractice.git
+------------------------------------------------
+
+git --version
+git help
+
+Make a directory
+----------------
+mkdir gitpractice2
+cd gitpractice2
+dir
+
+Add global value and check list
+-------------------------------
+git config --global user.name "Muhammad Shah"
+git config --global user.email "m_hussain_shah@hotmail.com"
+git config -l
+
+create a new repository on the command line
+------------------------------------------- 
+echo "# gitpractice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mhussainshah1/gitpractice.git
+git push -u origin master
+
+push an existing repository from the command line
+-------------------------------------------------- 
+git remote add origin https://github.com/mhussainshah1/gitpractice.git
+git push -u origin master
+
+Create 2 files and upload
+-------------------------------------------
+echo "This is the pants files">>pants.txt
+echo "This is the shirts files">>shirts.txt
+
+git add --all
+git commit -m "add shirts and pants files"
+git push -u origin master
+
+git log
+
+git status
+
+git clone https://github.com/adam-p/markdown-here.git
