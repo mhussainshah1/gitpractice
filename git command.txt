@@ -1,4 +1,4 @@
-https://github.com/mhussainshah1/gitpractice.git
+git sthttps://github.com/mhussainshah1/gitpractice.git
 ------------------------------------------------
 
 git --version
@@ -29,6 +29,10 @@ push an existing repository from the command line
 -------------------------------------------------- 
 git remote add origin https://github.com/mhussainshah1/gitpractice.git
 git push -u origin master
+
+pull a repository
+-----------------
+git pull origin master --allow-unrelated-histories
 
 Create 2 files and upload
 -------------------------------------------
