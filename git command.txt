@@ -32,6 +32,7 @@ git push -u origin master
 
 pull a repository
 -----------------
+git pull origin master
 git pull origin master --allow-unrelated-histories
 
 Create 2 files and upload
