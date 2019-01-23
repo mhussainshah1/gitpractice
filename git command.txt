@@ -30,12 +30,12 @@ push an existing repository from the command line
 git remote add origin https://github.com/mhussainshah1/gitpractice.git
 git push -u origin master
 
-pull a repository
------------------
+Q How to pull a repository into origin
+--------------------------------------
 git pull origin master
 git pull origin master --allow-unrelated-histories
 
-Create 2 files and upload
+Q How to Create 2 files and upload
 -------------------------------------------
 echo "This is the pants files">>pants.txt
 echo "This is the shirts files">>shirts.txt
@@ -48,4 +48,17 @@ git log
 
 git status
 
+Q How to copy repository to computer?
+-------------------------------------
 git clone https://github.com/adam-p/markdown-here.git
+
+Q How to rename the URL?
+-----------------------
+1) Rename URL
+----------
+git remote set-url origin https://github.com/mhussainshah1/IntermediateEliza.git
+
+2) remove origin and add origin
+---------------------------
+git remote rm origin
+git remote add origin https://github.com/mhussainshah1/IntermediateEliza.git
