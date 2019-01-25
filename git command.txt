@@ -16,8 +16,8 @@ git config --global user.name "Muhammad Shah"
 git config --global user.email "m_hussain_shah@hotmail.com"
 git config -l
 
-create a new repository on the command line
-------------------------------------------- 
+create a new repository on the command line and upload
+------------------------------------------------------
 echo "# gitpractice" >> README.md
 git init
 git add README.md
