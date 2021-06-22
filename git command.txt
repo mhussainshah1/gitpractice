@@ -1,4 +1,5 @@
-git sthttps://github.com/mhussainshah1/gitpractice.git
+git
+https://github.com/mhussainshah1/gitpractice.git
 ------------------------------------------------
 
 git --version
@@ -62,3 +63,8 @@ git remote set-url origin https://github.com/mhussainshah1/IntermediateEliza.git
 ---------------------------
 git remote rm origin
 git remote add origin https://github.com/mhussainshah1/IntermediateEliza.git
+
+
+
+posgress - 5432
+tomcat -8080
