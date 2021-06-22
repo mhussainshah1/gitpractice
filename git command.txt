@@ -68,3 +68,34 @@ git remote add origin https://github.com/mhussainshah1/IntermediateEliza.git
 
 posgress - 5432
 tomcat -8080
+
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+
+Create branch and checkout
+git checkout -b <name>
+
+push the changes on branch
+git add <file>
+git commit -m "<message>"
+git push origin <branch>
+
+Everything we have staged to commit
+git diff --cached
+
+delete remote branch
+git push origin --delete <branch>
+
+delete local branch
+git branch -D localBranchName
+
+git stash list
+git stash
+git stash pop
+
+Q How to rename a branch
+------------------------
+1) git checkout <old_name>
+2) git branch -m <new_name>
+3) git push origin -u <new_name>
+4) git push origin --delete <old_name>
